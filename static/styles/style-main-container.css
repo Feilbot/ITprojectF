@@ -1,0 +1,65 @@
+/*
+
+*/
+
+.main-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	background-color: rgb(68, 66, 94);
+}
+
+.left-bar {
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+.container {
+	grid-column: 3/9;
+	grid-row: 1/2;
+}
+
+.right-bar {
+	grid-column: 9/13;
+	grid-row: 1/2;
+}
+
+.left-bar p {
+	border-radius: 40px;
+	margin-left: 1em;
+	padding: 1em;
+	border-style: solid;
+	color: white;
+	border-color: aquamarine;
+	font-size: 1.2em;
+}
+.like_left_p {
+	border-radius: 40px;
+	margin-left: 1em;
+	padding: 1em;
+	border-style: solid;
+	color: white;
+	border-color: aquamarine;
+	font-size: 1.2em;
+}
+.left-bar ol,
+.right-bar ol,
+.border-add-to-text {
+	border-radius: 40px;
+	font-size: 1.2em;
+	margin-left: 1em;
+	padding: 1em;
+	border-style: solid;
+	list-style: none;
+	color: white;
+	border-color: aquamarine;
+}
+.left-bar li,
+.right-bar li {
+	padding-top: 0.5em;
+}
+
+.Name_of_p {
+	font-size: 1.5em !important;
+	border-style: none !important;
+}

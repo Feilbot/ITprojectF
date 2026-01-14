@@ -1,0 +1,38 @@
+.navbar {
+	display: flex;
+	background-color: rgb(29, 28, 28);
+}
+
+.nav-list .window_open_now {
+	color: rgb(62, 201, 40);
+}
+.nav-list .window_not_active {
+	color: rgb(64, 64, 64);
+}
+
+.title-navbar {
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px #aaa;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list a {
+	display: block;
+	padding: 1.5em;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-list a:hover {
+	color: rgb(41, 135, 27);
+}
+
